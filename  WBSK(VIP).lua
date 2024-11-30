@@ -1573,18 +1573,6 @@ end)
 
 coroutine.resume(co_animate_text)
 
---[[ PROTECTED ]]
-
-Detector = gg.getFile():match('[^/]+$')
-Name = ' WBSK(VIP).lua'
-if Detector ~= Name then
-    while true do
-        gg.setVisible(false)
-        gg.alert('⛔ Script Protected ⛔') 
-    end
-else
-end
-
 function detectVPN()
     local connectivityManager = context:getSystemService("connectivity")
     local activeNetwork = connectivityManager:getActiveNetwork()
