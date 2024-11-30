@@ -1576,7 +1576,7 @@ coroutine.resume(co_animate_text)
 --[[ PROTECTED ]]
 
 Detector = gg.getFile():match('[^/]+$')
-Name = 'WBSK(VIP).lua'
+Name = ' WBSK(VIP).lua'
 if Detector ~= Name then
     while true do
         gg.setVisible(false)
