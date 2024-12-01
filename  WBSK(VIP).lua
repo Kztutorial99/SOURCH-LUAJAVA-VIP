@@ -1656,7 +1656,7 @@ changan.menu({
             local _ = function(x, y, z) gg.setValues({[1] = {address = x, flags = y, value = z}}) end
             gg.clearResults()
 
-            local a, b = gg.getRangesList('libGame.so')[1].start, 0x1386758
+            local a, b = gg.getRangesList('libGame.so')[1].start, 0x167CA58
             _((a + b), 16, 1.002)
 
             gg.toast("✓ Feature Activated")
@@ -1668,7 +1668,7 @@ changan.menu({
             local _ = function(a, b, c) gg.setValues({[1] = {address = a, flags = b, value = c}}) end
             gg.clearResults()
 
-            local x, y = gg.getRangesList('libGame.so')[1].start, 0x1386758
+            local x, y = gg.getRangesList('libGame.so')[1].start, 0x167CA58
             _(x + y, 16, 1.0)
 
             gg.toast("✓ Feature Deactivated")
@@ -1789,8 +1789,8 @@ end
             local _ = function(x, y, z) gg.setValues({[1] = {address = x, flags = y, value = z}}) end
             gg.clearResults()
 
-            local a, b = gg.getRangesList('libGame.so')[1].start, 0x167CA58
-            _((a + b), 16, 1.002)
+            local a, b = gg.getRangesList('libGame.so')[1].start, 0x1386758
+            _((a + b), 16, 1.003)
 
             gg.toast("✓ Feature Activated")
             gg.clearResults()
@@ -1801,7 +1801,7 @@ end
             local _ = function(a, b, c) gg.setValues({[1] = {address = a, flags = b, value = c}}) end
             gg.clearResults()
 
-            local x, y = gg.getRangesList('libGame.so')[1].start, 0x167CA58
+            local x, y = gg.getRangesList('libGame.so')[1].start, 0x1386758
             _(x + y, 16, 1.0)
 
             gg.toast("✓ Feature Deactivated")
